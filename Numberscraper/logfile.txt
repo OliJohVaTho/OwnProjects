@@ -1,0 +1,2637 @@
+python3 scraper.py
+Content:
+
+<!DOCTYPE html>
+<html lang="no">
+ <head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta charset="utf-8"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="width=device-width, initial-scale=1" name="viewport"/>
+   <meta content="p6PC1M2fiZYVolvdrWTq3LLRxbi4t8ijVzj7RdiKj7k=" name="verify-v1">
+    <meta content="4D7B503546075471853883076593BAD8" name="msvalidate.01">
+     <meta content="none" name="msapplication-config"/>
+     <meta content="telephone=no" name="format-detection"/>
+     <meta content="always" name="referrer">
+      <style>
+       .async-hide {
+        opacity: 0 !important
+    }
+      </style>
+      <script>
+       (function (a, s, y, n, c, h, i, d, e) {
+        s.className += ' ' + y; h.start = 1 * new Date;
+        h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
+        (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
+        { 'GTM-WD5JGQ': true });
+      </script>
+      <!-- Google Tag Manager -->
+      <script>
+       (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WD5JGQ');
+      </script>
+      <!-- End Google Tag Manager -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css"/>
+      <meta content="noindex,follow" name="robots"/>
+      <link href="//www.1881.no/?query=1453&amp;type=person&amp;page=2" rel="next"/>
+      <title>
+       1453 - 1881 Gir deg treff på 1453
+      </title>
+      <meta content="website" property="og:type">
+       <meta content="https://www.1881.no/Content/Images/opplysningen-1881.png" property="og:image"/>
+       <meta content="1453 - 1881 Gir deg treff på 1453" property="og:title"/>
+       <meta content="http://www.1881.no/?query=1453&amp;type=person" property="og:url"/>
+       <link href="/Content/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+       <link href="/Content/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+       <link href="/Content/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+       <link href="/Content/favicons/manifest.json" rel="manifest"/>
+       <link color="#90bbe4" href="/Content/favicons/safari-pinned-tab.svg" rel="mask-icon"/>
+       <link href="/Content/favicons/favicon.ico" rel="shortcut icon"/>
+       <meta content="/Content/favicons/browserconfig.xml" name="msapplication-config"/>
+       <meta content="#ffffff" name="theme-color"/>
+       <meta content="app-id=593022780" name="apple-itunes-app"/>
+       <link href="/Content/style?v=TxJJmAk9zbAak_9pZw9lsT2X422pV0wJNcqwP6iEt-Q1" media="screen" rel="stylesheet" type="text/css">
+        <link href="/Content/style-print?v=_44ojG8M4SSSqhUsx9NlZxb7UVbxU8ye_vHaN-aiPUw1" media="print" rel="stylesheet" type="text/css">
+         <style>
+          .ad-300x80.ad-loaded {
+        margin-bottom: 24px;
+    }
+         </style>
+         <script src="/bundles/jquery?v=NkIilQ-Bnt5l7ktekGHPfMEPU26QF9MSWBZuou07fqs1">
+         </script>
+         <script src="/script?v=OONBA9OrDrIJ-OIHLThcuY89AHolaKbuJMTq3c-xyLQ1">
+         </script>
+         <script async="" src="https://cdn.adnuntius.com/adn.js">
+         </script>
+         <script async="" src="/Scripts/prebid.js">
+         </script>
+         <script>
+          (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-28557615-13', 'auto');
+    ga('set', 'anonymizeIp', true);
+
+    var ServiceDomain = 'https://service.1881.no/';
+    var MapHost = 'https://kart.1881.no';
+    var title = 'Resultatside Person';
+    var positioning = 'False';
+    var localplace = getCookie("1881_localplace").split('|')[1];
+    //console.log(positioning);
+    if (positioning != null && positioning == 'True') {
+        ga('set', 'dimension1', 'Ja');
+
+    } else {
+        ga('set', 'dimension1', 'Nei');
+    }
+
+    if (localplace != null && localplace != 'undefined') {
+        ga('set', 'dimension2', localplace);
+    }
+
+
+    if (title == "") {
+        ga('send', 'pageview');
+    } else {
+        ga('send', 'pageview',
+            {
+                'title': title
+            });
+    }
+
+    function gaLogMap(action, label) {
+        ga('send', 'event', 'Kart', action, label);
+    }
+
+    function gaLogSearch(action, label, value) {
+        ga('send', 'event', 'Sok', action, label, value);
+    }
+
+    function gaLogInfo(action, label) {
+        ga('send', 'event', 'Infoside', action, label);
+    }
+
+    function gaLogExternal(category, url) {
+        ga('send', 'event', 'External', category, url);
+    }
+
+    function gaLogMapUse(page, label, value) {
+        if (value) {
+            ga('send', 'event', 'Kartvisning', page, label, value);
+        } else {
+            ga('send', 'event', 'Kartvisning', page, label);
+        }
+    }
+
+    function logevent(category, action, label, value) {
+        ga('send', {
+            'hitType': 'event',
+            'eventCategory': category,
+            'eventAction': action,
+            'eventLabel': label,
+            'eventValue': value
+        });
+    }
+
+
+    function LogAction(listingid, actionType, value) {
+
+        if (typeof value === "undefined")
+            value = "";
+
+        $.get("/Utility/Logging?listingId=" + listingid + "&actionType=" + actionType + "&value=" + value).done(function() {
+        });
+        //var params = '{"listingId":"' + listingid + '", "action":"' + action + '", "value":"' + value + '"}';
+    }
+         </script>
+         <script src="/bundles/jqueryval?v=EPsGA8WCKdSTAUqh-muLJVW2F3NuSYS0-k1Gy3A7sS81">
+         </script>
+        </link>
+       </link>
+      </meta>
+     </meta>
+    </meta>
+   </meta>
+  </meta>
+ </head>
+ <body class="page-result" style="">
+  <a class="sr-only sr-only-focusable skiplink" href="#main">
+   Hopp til innhold
+  </a>
+  <script>
+   (function (w, d, e, u, c, g, a, b) {
+            w["SSJSConnectorObj"] = { ss_cid: c, domain_info: "auto" };
+            w[g] = function (i, j) { w["SSJSConnectorObj"][i] = j };
+            a = d.createElement(e);
+            a.async = true;
+            a.src = u;
+            b = d.getElementsByTagName(e)[0];
+            b.parentNode.insertBefore(a, b);
+        })(window, document, "script", "https://cdn.perfdrive.com/aperture/aperture.js", "89a7", "ssConf");
+  </script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-WD5JGQ" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- MODALER -->
+  <header class="site-header" role="banner">
+   <div class="container">
+    <h1 class="logo-1881">
+     <a href="/">
+      <img alt="1881.no" src="/Content/Images/logo-1881.svg?v=2"/>
+      <span class="visuallyhidden">
+       1881.no
+      </span>
+     </a>
+    </h1>
+    <div class="search-top" role="search">
+     <form action="/" id="form_search">
+      <label class="visuallyhidden" for="query">
+       Søk 1881
+      </label>
+      <div class="input-group">
+       <input autocapitalize="off" autocomplete="off" autocorrect="off" class="input-group-input" id="query" name="query" placeholder="Søk person, firma, bransje, telefon, sted" required="" spellcheck="false" title="Søk person, firma, bransje, telefon, sted" type="search" value="1453"/>
+       <div class="input-group-buttons">
+        <button class="reset" type="button">
+         <span class="icon-close" title="Tøm søkefelt">
+         </span>
+         <span class="visuallyhidden">
+          X
+         </span>
+        </button>
+        <button id="btn_geolocation" type="button">
+         <span class="icon-arrow-location" title="Hent posisjon">
+         </span>
+         <span class="visuallyhidden">
+          Hent posisjon
+         </span>
+        </button>
+        <button type="submit">
+         <span class="icon-search-2" title="Søk">
+         </span>
+         <span class="visuallyhidden">
+          Søk
+         </span>
+        </button>
+       </div>
+      </div>
+     </form>
+    </div>
+    <div class="dropdown">
+     <script>
+      function showOnMap() {
+                        $(document).ready(function() {
+                            var baseMapHost = 'https://kart.1881.no';
+                            var mapUrl = $("#bigMapUrl").attr("href");
+                            var listingId = $("#listingId").val();
+                            if (listingId != null && listingId != "") {
+                                LogAction(listingId, 'Map');
+                            }
+                            if (!isNullOrEmpty(mapUrl)) {
+                                document.location.href = mapUrl;
+                            } else {
+                                var query = $("#query").val();
+                                if (query != "") {
+                                    var mapquery = baseMapHost + "/?query=" + encodeURIComponent(query);
+                                    document.location.href = mapquery;
+                                }
+                            }
+                        });
+                    }
+     </script>
+     <span class="icon-menu site-header-menu dropdown-button">
+     </span>
+     <ul class="site-header-links dropdown-menu">
+      <li>
+       <a a="" href="#" onclick="showOnMap()">
+        Vis i kart
+       </a>
+      </li>
+      <li>
+       <a href="https://kart.1881.no/veibeskrivelse">
+        Veibeskrivelse
+       </a>
+      </li>
+      <li class="site-header-menu__log-in">
+       <a href="/logg-inn">
+        <span class="icon-user">
+        </span>
+        <span>
+         Logg inn
+        </span>
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </header>
+  <div class="content">
+   <div class="container">
+    <div class="ad-980">
+     <div id="adn-000000000007b82d_1" style="display: none">
+     </div>
+    </div>
+    <div class="ad-sleepy" onclick="this.style.display='none'" style="display: none;">
+     <div class="ad-sleepy__banner">
+      <div class="ad-sleepy__close">
+       <span>
+        ×
+       </span>
+      </div>
+      <div id="adn-000000000007b82f" style="display:none">
+      </div>
+     </div>
+    </div>
+    <script src="https://tags.adnuntius.com/pb/1881/1881.no/person-results-dimmer.js">
+    </script>
+    <script>
+     var inactive;
+        $(document).ready(function() {
+            if (document.body.clientWidth < 990 || cssua.ua.mobile)
+                return;
+
+            inactive = set();
+
+            $('.ad-sleepy').click(function() {
+                $(this).fadeOut('slow');
+                resetTimer = null;
+            });
+
+            $(this).mousemove(resetTimer);
+            $(this).keypress(resetTimer);
+            $(this).scroll(resetTimer);
+        });
+
+        function resetTimer() {
+            clearTimeout(inactive);
+            inactive = set();
+        }
+
+        function set() {
+            return setTimeout(function () {
+                    window.adn = window.adn || {};
+                    adn.calls = adn.calls || [];
+                    adn.calls.push(function () {
+                        adn.chbRequest(prebidUnits, { adUnits: [{ auId: '000000000007b82f', auW: 980, auH: 600 }] }, { debug: true }); 
+                    });
+                    $('.ad-sleepy').fadeIn('slow');
+                    killSleepy();
+                },
+                60000);
+        }
+
+        function killSleepy() {
+            $(document).off("mousemove");
+            $(document).off("keypress");
+            $(document).off("scroll");
+
+            clearTimeout(inactive);
+        }
+    </script>
+    <div class="result-head">
+     <ul class="result-category">
+      <li class="result-category-company active">
+       <span class="result-category-label">
+        Person
+       </span>
+       <span class="result-category-counter">
+        (1 502)
+       </span>
+      </li>
+      <li>
+       <a href="/?query=1453&amp;type=firma" rel="nofollow">
+        <span class="result-category-label">
+         Firma
+        </span>
+        <span class="result-category-counter">
+         (512)
+        </span>
+       </a>
+      </li>
+      <li>
+       <a href="/?query=1453&amp;type=adresse" rel="nofollow">
+        <span class="result-category-label">
+         Steder
+        </span>
+        <span class="result-category-counter">
+         (116)
+        </span>
+       </a>
+      </li>
+     </ul>
+     <div class="dropdown dropdown-geo">
+      <span class="dropdown-button dropdown-geo-button">
+       Landsdel
+       <span class="icon-arrow-down">
+       </span>
+      </span>
+      <ul class="dropdown-menu dropdown-geo-menu">
+       <li>
+        <a href="/?query=1453&amp;type=person&amp;page=1&amp;filter=%2bRegion%3aMidt-Norge" onclick="gaLogSearch('Navigator', 'Landsdel');" rel="nofollow" title="Midt-Norge">
+         Midt-Norge
+        </a>
+       </li>
+       <li>
+        <a href="/?query=1453&amp;type=person&amp;page=1&amp;filter=%2bRegion%3aNord-Norge" onclick="gaLogSearch('Navigator', 'Landsdel');" rel="nofollow" title="Nord-Norge">
+         Nord-Norge
+        </a>
+       </li>
+       <li>
+        <a href="/?query=1453&amp;type=person&amp;page=1&amp;filter=%2bRegion%3aS%c3%b8rlandet" onclick="gaLogSearch('Navigator', 'Landsdel');" rel="nofollow" title="Sørlandet">
+         Sørlandet
+        </a>
+       </li>
+       <li>
+        <a href="/?query=1453&amp;type=person&amp;page=1&amp;filter=%2bRegion%3aVestlandet" onclick="gaLogSearch('Navigator', 'Landsdel');" rel="nofollow" title="Vestlandet">
+         Vestlandet
+        </a>
+       </li>
+       <li>
+        <a href="/?query=1453&amp;type=person&amp;page=1&amp;filter=%2bRegion%3a%c3%98stlandet" onclick="gaLogSearch('Navigator', 'Landsdel');" rel="nofollow" title="Østlandet">
+         Østlandet
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <a class="result-to-map" href="https://kart.1881.no/?r=373845S1|12957117S1|13264078S1|513894S1|1333724S1|30532294S1|30749610S2|865872S1|503400S1|205968640S1|1497406S1|898602S1|31446420S1|17299396S2|19317879S1|748424S1|360426S1|1351946S2|17182724S1|399342S1">
+       Vis i kart
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="container">
+    <main>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/tlf/bent-olsby_373845S1/?query=1453" onclick="LogAction('373845S1', 'Infopage')">
+          Bent Olsby
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/tosletta-25" onclick="LogAction('373845S1', 'Map')">
+          Tosletta 25,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004793282106" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             932 82 106
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004793282106" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/tosletta-25" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/tlf/bent-olsby_373845S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+        <p class="listing__phone-more">
+         <a href="/tlf/bent-olsby_373845S1/" onclick="gaLogSearch('Resultatliste lenker', 'vis flere telefonnummer');">
+          Vis alle telefonnummer
+         </a>
+        </p>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/tlf/bent-olsby_373845S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+         <li class="promo-link-list__item promo-link-list__regnskapstall">
+          <a href="https://www.regnskapstall.no/roller-og-eiere-av-bent-olsby-373845S1?utm_source=www.1881.no&amp;utm_medium=Link&amp;utm_content=Roller%20person&amp;utm_campaign=Finance%20Link" target="_blank">
+           <span class="icon-users">
+           </span>
+           <span class="promo-link-list__text">
+            Se Bent Olsby sine roller i næringslivet
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="ad ad-send-gift ad-send-gift--name-day">
+      <a href="https://www.blomster.no/navnedag/" onclick="logevent('Person', 'Resultat', 'SendBlomsterTickerNavndag')" rel="nofollow" target="_blank">
+       <div>
+        <b>
+         Jorunn og Jørund
+        </b>
+        har navnedag i dag.
+        <span>
+         Send en blomst!
+        </span>
+       </div>
+      </a>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/netthandel/netthandel-viken/netthandel-bjoernemyr/monica-soevik_12957117S1/?query=1453" onclick="LogAction('12957117S1', 'Infopage')">
+          Monica Søvik
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/elgfaret-2b" onclick="LogAction('12957117S1', 'Map')">
+          Elgfaret 2 B,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004740872348" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             408 72 348
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004740872348" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/elgfaret-2b" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/netthandel/netthandel-viken/netthandel-bjoernemyr/monica-soevik_12957117S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/netthandel/netthandel-viken/netthandel-bjoernemyr/monica-soevik_12957117S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+         <li class="promo-link-list__item promo-link-list__regnskapstall">
+          <a href="https://www.regnskapstall.no/roller-og-eiere-av-monica-soevik-12957117S1?utm_source=www.1881.no&amp;utm_medium=Link&amp;utm_content=Roller%20person&amp;utm_campaign=Finance%20Link" target="_blank">
+           <span class="icon-users">
+           </span>
+           <span class="promo-link-list__text">
+            Se Monica Søvik sine roller i næringslivet
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/rikke-agerup_13264078S1/?query=1453">
+          Rikke Agerup
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/vestlia-110" onclick="LogAction('13264078S1', 'Map')">
+          Vestlia 110,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004793612966" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             936 12 966
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004793612966" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/vestlia-110" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/rikke-agerup_13264078S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/rikke-agerup_13264078S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+         <li class="promo-link-list__item promo-link-list__regnskapstall">
+          <a href="https://www.regnskapstall.no/roller-rikke-agerup_13264078?utm_source=www.1881.no&amp;utm_medium=Link&amp;utm_content=Roller%20person&amp;utm_campaign=Finance%20Link" target="_blank">
+           <span class="icon-users">
+           </span>
+           <span class="promo-link-list__text">
+            Se Rikke sine roller i næringslivet
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="ad-980">
+      <div id="adn-000000000007b82e_1" style="display: none">
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/hilde-bergersen_513894S1/?query=1453">
+          Hilde Bergersen
+         </a>
+        </h2>
+        <p class="listing__title">
+         Psykolog
+        </p>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyr-terrasse-26b" onclick="LogAction('513894S1', 'Map')">
+          Bjørnemyr terrasse 26 B,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004792612701" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             926 12 701
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004792612701" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyr-terrasse-26b" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/hilde-bergersen_513894S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+        <p class="listing__phone-more">
+         <a href="/person/nesodden/bjoernemyr/hilde-bergersen_513894S1/" onclick="gaLogSearch('Resultatliste lenker', 'vis flere telefonnummer');">
+          Vis alle telefonnummer
+         </a>
+        </p>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/hilde-bergersen_513894S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+         <li class="promo-link-list__item promo-link-list__regnskapstall">
+          <a href="https://www.regnskapstall.no/roller-hilde-bergersen_513894?utm_source=www.1881.no&amp;utm_medium=Link&amp;utm_content=Roller%20person&amp;utm_campaign=Finance%20Link" target="_blank">
+           <span class="icon-users">
+           </span>
+           <span class="promo-link-list__text">
+            Se Hilde sine roller i næringslivet
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/svein-brevik_1333724S1/?query=1453">
+          Svein Brevik
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/toemmerstubben-6" onclick="LogAction('1333724S1', 'Map')">
+          Tømmerstubben 6,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004748485585" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             484 85 585
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004748485585" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/toemmerstubben-6" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/svein-brevik_1333724S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+        <p class="listing__phone-more">
+         <a href="/person/nesodden/bjoernemyr/svein-brevik_1333724S1/" onclick="gaLogSearch('Resultatliste lenker', 'vis flere telefonnummer');">
+          Vis alle telefonnummer
+         </a>
+        </p>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/svein-brevik_1333724S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/gaelle-david_30532294S1/?query=1453">
+          Gaelle David
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/toemmerbakke-vei-25" onclick="LogAction('30532294S1', 'Map')">
+          Tømmerbakke vei 25,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004741283712" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             412 83 712
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004741283712" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/toemmerbakke-vei-25" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/gaelle-david_30532294S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/gaelle-david_30532294S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+         <li class="promo-link-list__item promo-link-list__regnskapstall">
+          <a href="https://www.regnskapstall.no/roller-gaelle-david_30532294?utm_source=www.1881.no&amp;utm_medium=Link&amp;utm_content=Roller%20person&amp;utm_campaign=Finance%20Link" target="_blank">
+           <span class="icon-users">
+           </span>
+           <span class="promo-link-list__text">
+            Se Gaelle sine roller i næringslivet
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/grethe-forsland_30749610S2/?query=1453">
+          Grethe Forsland
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/haakonskastet-1" onclick="LogAction('30749610S2', 'Map')">
+          Håkonskastet 1,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004763799977" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             63 79 99 77
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/haakonskastet-1" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/grethe-forsland_30749610S2/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/grethe-forsland_30749610S2/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/hans-fossum_865872S1/?query=1453">
+          Hans Fossum
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoerneskrenten-44" onclick="LogAction('865872S1', 'Map')">
+          Bjørneskrenten 44,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004793269155" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             932 69 155
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004793269155" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoerneskrenten-44" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/hans-fossum_865872S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/hans-fossum_865872S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/liv-gjervan_503400S1/?query=1453">
+          Liv Gjervan
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrveien-3f" onclick="LogAction('503400S1', 'Map')">
+          Bjørnemyrveien 3 F,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004797513475" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             975 13 475
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004797513475" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrveien-3f" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/liv-gjervan_503400S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/liv-gjervan_503400S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/evelyn-gartner_205968640S1/?query=1453">
+          Evelyn Gärtner
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyr-terrasse-39" onclick="LogAction('205968640S1', 'Map')">
+          Bjørnemyr terrasse 39,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004799446580" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             994 46 580
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyr-terrasse-39" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/evelyn-gartner_205968640S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/evelyn-gartner_205968640S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/marit-halle_1497406S1/?query=1453">
+          Marit Halle
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrsvingen-31" onclick="LogAction('1497406S1', 'Map')">
+          Bjørnemyrsvingen 31,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004793665254" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             936 65 254
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004793665254" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrsvingen-31" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/marit-halle_1497406S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/marit-halle_1497406S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/liv-heyerdahl_898602S1/?query=1453">
+          Liv Heyerdahl
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/lalienveien-6" onclick="LogAction('898602S1', 'Map')">
+          Lalienveien 6,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004790832824" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             908 32 824
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004790832824" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/lalienveien-6" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/liv-heyerdahl_898602S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/liv-heyerdahl_898602S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/roland-juhasz_31446420S1/?query=1453">
+          Roland Juhasz
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrveien-29a" onclick="LogAction('31446420S1', 'Map')">
+          Bjørnemyrveien 29 A,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004796698939" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             966 98 939
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004796698939" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrveien-29a" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/roland-juhasz_31446420S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+        <p class="listing__phone-more">
+         <a href="/person/nesodden/bjoernemyr/roland-juhasz_31446420S1/" onclick="gaLogSearch('Resultatliste lenker', 'vis flere telefonnummer');">
+          Vis alle telefonnummer
+         </a>
+        </p>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/roland-juhasz_31446420S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/eivind-klubbenes_17299396S2/?query=1453">
+          Eivind Klubbenes
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/alvaernveien-20" onclick="LogAction('17299396S2', 'Map')">
+          Alværnveien 20,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004791396967" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             913 96 967
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/alvaernveien-20" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/eivind-klubbenes_17299396S2/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/eivind-klubbenes_17299396S2/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/hege-kranstad_19317879S1/?query=1453">
+          Hege Kranstad
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/alvaernlia-35" onclick="LogAction('19317879S1', 'Map')">
+          Alværnlia 35,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004792299233" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             922 99 233
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004792299233" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/alvaernlia-35" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/hege-kranstad_19317879S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/hege-kranstad_19317879S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+         <li class="promo-link-list__item promo-link-list__regnskapstall">
+          <a href="https://www.regnskapstall.no/roller-hege-kranstad_19317879?utm_source=www.1881.no&amp;utm_medium=Link&amp;utm_content=Roller%20person&amp;utm_campaign=Finance%20Link" target="_blank">
+           <span class="icon-users">
+           </span>
+           <span class="promo-link-list__text">
+            Se Hege sine roller i næringslivet
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/benjamin-madeira_748424S1/?query=1453">
+          Benjamin Madeira
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/myrlia-56" onclick="LogAction('748424S1', 'Map')">
+          Myrlia 56,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <ul class="listing__featured-links">
+         <li>
+          <a href="http://www.benjaminmadeira.com/" onclick="gaLogExternal('hjemmeside [resultatliste]', 'http://www.benjaminmadeira.com/');LogAction('748424S1', 'Homepage', 'http://www.benjaminmadeira.com/');" rel="nofollow" target="_blank">
+           www.benjaminmadeira.com
+          </a>
+         </li>
+         <li>
+          <a href="https://twitter.com/BENJAMINMADEIRA" onclick="gaLogExternal('sosialemedier [resultatliste]', 'https://twitter.com/BENJAMINMADEIRA');LogAction('748424S1', 'Homepage', 'https://twitter.com/BENJAMINMADEIRA');" rel="nofollow" target="_blank">
+           Twitter
+          </a>
+         </li>
+        </ul>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004740075616" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             400 75 616
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004740075616" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/myrlia-56" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/benjamin-madeira_748424S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/benjamin-madeira_748424S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/ellisiv-mehammer_360426S1/?query=1453">
+          Ellisiv Mehammer
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/myrlia-56" onclick="LogAction('360426S1', 'Map')">
+          Myrlia 56,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <ul class="listing__featured-links">
+         <li>
+          <a href="http://www.ellisivmehammer.com/" onclick="gaLogExternal('hjemmeside [resultatliste]', 'http://www.ellisivmehammer.com/');LogAction('360426S1', 'Homepage', 'http://www.ellisivmehammer.com/');" rel="nofollow" target="_blank">
+           www.ellisivmehammer.com
+          </a>
+         </li>
+         <li>
+          <a href="https://twitter.com/ellisivmehammer" onclick="gaLogExternal('sosialemedier [resultatliste]', 'https://twitter.com/ellisivmehammer');LogAction('360426S1', 'Homepage', 'https://twitter.com/ellisivmehammer');" rel="nofollow" target="_blank">
+           Twitter
+          </a>
+         </li>
+        </ul>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004745859897" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             458 59 897
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004745859897" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/myrlia-56" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/ellisiv-mehammer_360426S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/ellisiv-mehammer_360426S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/dagfinn-njoeten_1351946S2/?query=1453">
+          Dagfinn Njøten
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrsvingen-35" onclick="LogAction('1351946S2', 'Map')">
+          Bjørnemyrsvingen 35,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004766963004" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             66 96 30 04
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/bjoernemyrsvingen-35" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/dagfinn-njoeten_1351946S2/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+        <p class="listing__phone-more">
+         <a href="/person/nesodden/bjoernemyr/dagfinn-njoeten_1351946S2/" onclick="gaLogSearch('Resultatliste lenker', 'vis flere telefonnummer');">
+          Vis alle telefonnummer
+         </a>
+        </p>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/dagfinn-njoeten_1351946S2/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/terje-nygaard_17182724S1/?query=1453">
+          Terje Nygaard
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/alvaernkroken-2" onclick="LogAction('17182724S1', 'Map')">
+          Alværnkroken 2,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004795262128" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             952 62 128
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004795262128" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/alvaernkroken-2" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/terje-nygaard_17182724S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+        <p class="listing__phone-more">
+         <a href="/person/nesodden/bjoernemyr/terje-nygaard_17182724S1/" onclick="gaLogSearch('Resultatliste lenker', 'vis flere telefonnummer');">
+          Vis alle telefonnummer
+         </a>
+        </p>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/terje-nygaard_17182724S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+         <li class="promo-link-list__item promo-link-list__regnskapstall">
+          <a href="https://www.regnskapstall.no/roller-terje-nygaard_17182724?utm_source=www.1881.no&amp;utm_medium=Link&amp;utm_content=Roller%20person&amp;utm_campaign=Finance%20Link" target="_blank">
+           <span class="icon-users">
+           </span>
+           <span class="promo-link-list__text">
+            Se Terje sine roller i næringslivet
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="listing listing--person">
+      <div class="listing__edit-promo">
+       <a href="https://min.1881.no?utm_source=1881.no&amp;utm_medium=person-resultat-promo&amp;utm_content=endre-opplysninger" onclick="logevent('Person', 'Resultat', 'Min Side Promo')" target="_blank">
+        <span class="listing__edit-promo-text">
+         <span class="icon-edit">
+         </span>
+         Endre opplysninger
+        </span>
+       </a>
+      </div>
+      <div class="listing__body">
+       <div class="listing__contact-info">
+        <h2 class="listing__name">
+         <a href="/person/nesodden/bjoernemyr/ingeborg-prestholdt_399342S1/?query=1453">
+          Ingeborg Prestholdt
+         </a>
+        </h2>
+        <p class="listing__address">
+         <a href="https://kart.1881.no/nesodden/1453-bjoernemyr/orholtet-4" onclick="LogAction('399342S1', 'Map')">
+          Orholtet 4,
+          <span>
+           1453 Bjørnemyr
+          </span>
+         </a>
+        </p>
+        <div class="contact-featured contact-featured--result">
+         <ul class="contact-featured__list">
+          <li class="contact-featured__phone">
+           <span class="icon-phone-circle">
+           </span>
+           <a class="button-call" href="tel:004799165466" onclick="gaLogSearch('Resultatliste lenker', 'Ring');">
+            <span class="icon-phone">
+            </span>
+            <span class="button-call__number">
+             991 65 466
+            </span>
+           </a>
+          </li>
+          <li class="contact-featured__sms">
+           <a href="sms:004799165466" onclick="gaLogSearch('Resultatliste lenker', 'Sms');" role="button">
+            <span class="icon-message">
+            </span>
+            SMS
+           </a>
+          </li>
+          <li class="contact-featured__map">
+           <a data-tooltip="Vis i kart" href="https://kart.1881.no/nesodden/1453-bjoernemyr/orholtet-4" onclick="gaLogSearch('Resultatliste lenker', 'Kart');">
+            <span class="icon-map-pin">
+            </span>
+            Kart
+           </a>
+          </li>
+          <li class="contact-featured__more">
+           <a data-tooltip="Vis mer informasjon" href="/person/nesodden/bjoernemyr/ingeborg-prestholdt_399342S1/?query=1453" onclick="gaLogSearch('Resultatliste lenker', 'Mer info');">
+            Mer
+            <span>
+             info
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="listing__promo-info">
+        <ul class="promo-link-list promo-link-list--listing">
+         <li class="promo-link-list__item promo-link-list__send-blomst">
+          <a href="https://www.blomster.no/person/nesodden/bjoernemyr/ingeborg-prestholdt_399342S1/?utmContent=resultatside" rel="nofollow" target="_blank">
+           <span class="icon-flower">
+           </span>
+           <span class="promo-link-list__text">
+            Send blomster
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="result-pager">
+      <div class="result-pager">
+       <ul class="pagination hidden-print">
+        <li class="result-pager-number active">
+         <a href="/?query=1453&amp;type=person">
+          1
+          <span class="visuallyhidden">
+           (Denne siden)
+          </span>
+         </a>
+        </li>
+        <li class="result-pager-number">
+         <a href="/?query=1453&amp;type=person&amp;page=2" onclick="logevent('Navigator','Pager','1')">
+          2
+         </a>
+        </li>
+        <li class="result-pager-number">
+         <a href="/?query=1453&amp;type=person&amp;page=3" onclick="logevent('Navigator','Pager','1')">
+          3
+         </a>
+        </li>
+        <li class="result-pager-number">
+         <a href="/?query=1453&amp;type=person&amp;page=4" onclick="logevent('Navigator','Pager','1')">
+          4
+         </a>
+        </li>
+        <li class="result-pager-number">
+         <a href="/?query=1453&amp;type=person&amp;page=5" onclick="logevent('Navigator','Pager','1')">
+          5
+         </a>
+        </li>
+        <li class="result-pager-next" title="Vis neste side">
+         <a aria-label="Neste" href="/?query=1453&amp;type=person&amp;page=2" onclick="logevent('Navigator', 'Pager', 'Neste');">
+          <span class="result-pager-text">
+           Neste side
+          </span>
+          <span class="icon-arrow-right">
+          </span>
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </main>
+    <aside class="aside-sticky">
+     <div class="ad-300x250">
+      <div id="adn-000000000005315f_1" style="display: none">
+      </div>
+     </div>
+     <div class="strossle-aside">
+      <div data-spklw-widget="c6cf5ad6-a811-4aa1-857b-d04ee86c7f02">
+      </div>
+      <script async="" src="//widgets.sprinklecontent.com/v2/sprinkle.js">
+      </script>
+     </div>
+    </aside>
+   </div>
+  </div>
+  <footer id="footer">
+   <div class="container">
+    <div class="services-promo services-promo--footer">
+     <ul>
+      <li>
+       <a href="https://om.1881.no/tjenester-1881/1881-mobilsok-app" onclick="logevent('Frontside', 'Torg', 'App')" target="_blank">
+        <span class="icon-mobile">
+        </span>
+        <span>
+         Last ned app
+        </span>
+       </a>
+      </li>
+      <li>
+       <a href="https://dm.1881.no/?utm_source=1881.no&amp;utm_medium=link&amp;utm_campaign=Promo&amp;utm_content=header" onclick="logevent('Frontside', 'Torg', 'Mediebyrået1881')" target="_blank">
+        <span class="icon-binoculars">
+        </span>
+        <span>
+         Gjør din bedrift synlig
+        </span>
+       </a>
+      </li>
+      <li>
+       <a href="https://02393.no/" onclick="logevent('Frontside', 'Torg', 'Ring Taxi')" target="_blank">
+        <span class="icon-taxi">
+        </span>
+        <span>
+         Ring taxi
+        </span>
+       </a>
+      </li>
+      <li>
+       <a href="https://prisguiden.no/" onclick="logevent('Frontside', 'Torg', 'Prisguiden')" target="_blank">
+        <span class="icon-logo-prisguiden">
+        </span>
+        <span>
+         Sammenlign priser
+        </span>
+       </a>
+      </li>
+      <li>
+       <a href="https://siste.eiendomspriser.no" onclick="logevent('Frontside', 'Torg', 'Boligpriser')" target="_blank">
+        <span class="icon-homes">
+        </span>
+        <span>
+         Se eiendomspriser
+        </span>
+       </a>
+      </li>
+      <li>
+       <a href="https://www.regnskapstall.no" onclick="logevent('Frontside', 'Torg', 'Regnskapstall')" target="_blank">
+        <span class="icon-logo-regnskapstall">
+        </span>
+        <span>
+         Se regnskapstall
+        </span>
+       </a>
+      </li>
+      <li>
+       <a href="https://www.blomster.no?utmContent=footer" onclick="logevent('Frontside', 'Torg', 'Bestill blomster')">
+        <span class="icon-flower">
+        </span>
+        <span>
+         Bestill blomster
+        </span>
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="footer">
+     <div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Annonsering hos 1881
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://dm.1881.no/produkter/synlighet-i-1881s-sokeresultat?utm_source=1881.no&amp;utm_medium=link&amp;utm_campaign=Promo&amp;utm_content=footer">
+          Synlighet i 1881s søkeresultat
+         </a>
+        </li>
+        <li>
+         <a href="https://dm.1881.no/produkter/1881-landingsside?utm_source=1881.no&amp;utm_medium=link&amp;utm_campaign=Promo&amp;utm_content=footer">
+          Landingsside hos 1881
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Annonsering med Idium
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://ds.idium.no?utm_source=1881.no&amp;utm_medium=link-footer&amp;utm_campaign=static">
+          Test din bedrifts synlighet på nett
+         </a>
+        </li>
+        <li>
+         <a href="https://www.idium.no/tjenester/nettsider?utm_source=1881.no&amp;utm_medium=link-footer&amp;utm_campaign=static">
+          Profesjonelle nettsider
+         </a>
+        </li>
+        <li>
+         <a href="https://www.idium.no/tjenester/google-ads?utm_source=1881.no&amp;utm_medium=link-footer&amp;utm_campaign=static">
+          Annonser i Googles søkeresultat
+         </a>
+        </li>
+        <li>
+         <a href="https://www.idium.no/tjenester/programmatisk?utm_source=1881.no&amp;utm_medium=link-footer&amp;utm_campaign=static">
+          Programmatisk annonsering
+         </a>
+        </li>
+        <li>
+         <a href="https://www.idium.no/?utm_source=1881.no&amp;utm_medium=link-footer&amp;utm_campaign=static">
+          Se Idiums løsninger for effektiv markedsføring på nett
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Bedriftsløsninger
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://www.1881.no/widget">
+          Web widgets til ditt nettsted
+         </a>
+        </li>
+        <li>
+         <a href="https://www.api1881.no/">
+          Søke-API databaseoppslag
+         </a>
+        </li>
+        <li>
+         <a href="https://inn.opplysningen.no/">
+          INN – Adressehenting for nettbutikker
+         </a>
+        </li>
+        <li>
+         <a href="http://kampanje.regnskapstall.no/kredittsjekk-privat">
+          Kredittsjekk dine kunder
+         </a>
+        </li>
+        <li>
+         <a href="http://kampanje.regnskapstall.no/overvak">
+          Overvåk dine kunder og samarbeidspartnere
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div>
+      <div class="dropdown footer__menu">
+       <h2>
+        1881 app
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://om.1881.no/tjenester-1881/1881-mobilsok-app?utm_source=1881.no&amp;utm_medium=web&amp;utm_campaign=Promo&amp;utm_content=footer" onclick="logevent('Frontside', 'Torg', 'App')">
+          1881 Mobilsøk
+         </a>
+        </li>
+        <li>
+         <a href="https://om.1881.no/tjenester-1881/1881s-apper">
+          1881s apper
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        1881 telefonopplysning
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://om.1881.no/tjenester-1881/ring-1881">
+          Om tjenesten Ring 1881
+         </a>
+        </li>
+        <li>
+         <a href="https://om.1881.no/tjenester-1881/send-sms">
+          Om tjenesten Send SMS
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        1881s nettsteder
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://www.1881.no/">
+          1881.no
+         </a>
+        </li>
+        <li>
+         <a href="https://siste.eiendomspriser.no" onclick="logevent('Frontside', 'Torg', 'Boligpriser')">
+          Eiendomspriser.no
+         </a>
+        </li>
+        <li>
+         <a href="https://www.regnskapstall.no" onclick="logevent('Frontside', 'Torg', 'Regnskapstall')">
+          Regnskapstall.no
+         </a>
+        </li>
+        <li>
+         <a href="https://02393.no/" onclick="logevent('Frontside', 'Torg', 'Ring Taxi')">
+          02393 RingTaxi
+         </a>
+        </li>
+        <li>
+         <a href="https://prisguiden.no/" onclick="logevent('Frontside', 'Torg', 'Prisguiden')">
+          Prisguiden
+         </a>
+        </li>
+        <li>
+         <a href="https://www.blomster.no?utmContent=footer" onclick="logevent('Frontside', 'Torg', 'Blomster')">
+          Blomster.no
+         </a>
+        </li>
+        <li>
+         <a href="https://min.1881.no/">
+          Min side
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div>
+      <div class="dropdown footer__menu">
+       <h2>
+        1881 i sosiale medier
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://www.facebook.com/1881.no">
+          Facebook
+         </a>
+        </li>
+        <li>
+         <a href="https://twitter.com/1881">
+          Twitter
+         </a>
+        </li>
+        <li>
+         <a href="https://goo.gl/maps/xU8A3GMGBYv">
+          Google My Business
+         </a>
+        </li>
+        <li>
+         <a href="https://www.youtube.com/channel/UC5kZCHffivOX48x8mOWJxkQ/videos">
+          YouTube
+         </a>
+        </li>
+        <li>
+         <a href="https://www.instagram.com/opplysningen_1881/">
+          Instagram
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Nyttige sider
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://om.1881.no/nyttige-sider/viktige-telefonnummer">
+          Viktige nummer
+         </a>
+        </li>
+        <li>
+         <a href="https://om.1881.no/nyttige-sider/kataloger-i-utlandet">
+          Kataloger i utlandet
+         </a>
+        </li>
+        <li>
+         <a href="https://om.1881.no/nyttige-sider/landskoder-og-retningsnummer">
+          Retningsnummer utlandet
+         </a>
+        </li>
+        <li>
+         <a href="https://www.1881.no/smart">
+          Bruk 1881 smartere
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Innhold
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="/sitemap">
+          Bransjer og firma
+         </a>
+        </li>
+        <li>
+         <a href="/person">
+          Personer
+         </a>
+        </li>
+        <li>
+         <a href="/emneknagger">
+          Emneknagger
+         </a>
+        </li>
+        <li>
+         <a href="/ukjent-nummer">
+          Ukjent nummer
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Kundeservice privat
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://min.1881.no/">
+          Endre opplysninger
+         </a>
+        </li>
+        <li>
+         <a href="https://ks.1881.no/Kontakt-oss-privat/">
+          Kontakt oss
+         </a>
+        </li>
+        <li>
+         <a href="https://ks.1881.no/Privat/">
+          Kundeservice
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Kundeservice bedrift
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://endre.1881.no/">
+          Endre opplysninger
+         </a>
+        </li>
+        <li>
+         <a href="https://ks.1881.no/kontakt-oss-bedrift/">
+          Kontakt oss
+         </a>
+        </li>
+        <li>
+         <a href="https://ks.1881.no/bedrift/">
+          Kundeservice
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Vilkår og personvern
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://vp.1881.no/personvernerklaring">
+          Personvernerklæring
+         </a>
+        </li>
+        <li>
+         <a href="https://vp.1881.no/informasjon-om-cookies">
+          Informasjon om cookies
+         </a>
+        </li>
+        <li>
+         <a href="https://vp.1881.no/avtalevilkar-annonsering">
+          Avtalevilkår annonsering
+         </a>
+        </li>
+        <li>
+         <a href="https://vp.1881.no/">
+          Vilkår for bruk av tjenestene
+         </a>
+        </li>
+        <li>
+         <a href="#" onclick="ot.consent.trigger({ 'ot.consent': 'overlay',forced: true }); return false;">
+          Innstillinger for cookies
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div>
+      <div class="dropdown footer__menu">
+       <h2>
+        Om Opplysningen 1881
+       </h2>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://om.1881.no/">
+          Om Opplysningen 1881®
+         </a>
+        </li>
+        <li>
+         <a href="https://www.1881group.no/jobb-i-1881-group">
+          Jobb i 1881
+         </a>
+        </li>
+        <li>
+         <a href="https://om.1881.no/kontakt/pressekontakt">
+          Pressekontakt
+         </a>
+        </li>
+        <li>
+         <a href="https://om.1881.no/kontakt/logo-og-profilmanual">
+          Logo og profilmanual
+         </a>
+        </li>
+        <li>
+         <i>
+          Adresse
+         </i>
+        </li>
+        <li>
+         <a href="https://kart.1881.no/oslo/0484-oslo/rolf-wickstroems-vei-15">
+          <span class="wbrb">
+           Rolf Wickstrøms vei 15,
+          </span>
+          <span class="wbrb">
+           0484 Oslo
+          </span>
+         </a>
+        </li>
+        <li>
+         <span class="wbrb">
+          Postboks 382 Sentrum,
+         </span>
+         <span class="wbrb">
+          0102 Oslo
+         </span>
+        </li>
+       </ul>
+      </div>
+      <ul>
+       <li>
+        <span class="wbrb">
+         © Opplysningen 1881®
+        </span>
+        og
+        <span class="wbrb">
+         Digitale Medier 1881
+        </span>
+        – Selskaper i
+        <a href="https://1881Group.no/">
+         1881 Group
+        </a>
+       </li>
+       <li class="toogle-active">
+        <span class="wbrb">
+         Ansvarlig redaktør:
+        </span>
+        <span class="wbrb">
+         Asgeir Ohr
+        </span>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="https://tags.adnuntius.com/pb/1881/1881.no/person-results.js">
+  </script>
+  <script type="text/javascript">
+   window.adn = window.adn || {}; adn.calls = adn.calls || [];
+        adn.calls.push(function () {
+                            adn.chbRequest(prebidUnits, { adUnits: [{ auId: '000000000007b82d',targetId: 'adn-000000000007b82d_1', auW: 980, auH: 300, kv: {}},
+{ auId: '000000000007b82e',targetId: 'adn-000000000007b82e_1', auW: 980, auH: 300, kv: {}},
+{ auId: '000000000005315f',targetId: 'adn-000000000005315f_1', auW: 250, auH: 300, kv: {}}] }, { debug: true });
+        });
+  </script>
+ </body>
+</html>
+
