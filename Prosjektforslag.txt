@@ -1,0 +1,10 @@
+
+Ønsket er å lage forskjellige applikasjoner i browseren for å trene på JavaSript. Jeg ønsker å starte enkelt, og sakte jobbe meg oppover. Her er noen forslag:
+
+1. Simulere game of life. Dette er ikke vanskelig implementasjonsmessig, men kan være litt tricky å få fint på nettsiden. Det er en fin introduksjon til webutvikling.
+
+2. Lage Tetris. Spillmekanikken er nok ikke så vanskelig å få til, men utfordringen blir igjen å få det til å se fint ut.
+
+3. Treningsoversikt ved bruk av databaser og sql.
+
+4. Sette opp eget API. For hva, det vet jeg ikke. 
