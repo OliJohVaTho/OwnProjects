@@ -1,0 +1,30 @@
+
+body{
+    background-color: rgb(240, 240, 230);
+}
+
+.title {
+    color:rgb(230, 57, 26)
+}
+
+
+.grid-container {
+    display:               inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap:       5px;
+    grid-row-gap:          5px; /* "grid-gap: 20px 40px" also works */
+    background-color: #2196F3
+}
+
+.grid-container > div {
+    background-color: rgba(173, 216, 230, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end:   3;
+}
+

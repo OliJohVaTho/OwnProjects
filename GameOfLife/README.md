@@ -1,6 +1,6 @@
 # Game Of Life
 *Author: Oliver Johansen*  
-*Started: 16.05.2021*   
+*Started: 08.06.2021*   
 
 ### What is Game of Life
 Conway's "Game of Life" is a simulation of how cells multiply and decay over time, given a few simple rules. The rules are:  
@@ -38,3 +38,8 @@ Other: (Do when I am done with the rest):
 1. Let user choose the randomness of the initial state.  
 2. Let user change the scale of the simulation.  
 3. Create a nice HTML and CSS page.  
+
+
+
+### The Project in Progress
+![The early state](slideshow/EarlyGrid.png)
