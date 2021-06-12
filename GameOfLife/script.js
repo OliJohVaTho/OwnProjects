@@ -24,7 +24,7 @@ class Node{
             this.prevState = "O";
         }
     }
-
+    
     /* Uses its neighbouring Nodes to evolve its state to either dead or alive */
     evolve(){
         let aliveNeighbours = 0;
@@ -34,56 +34,46 @@ class Node{
             
             //Top left
             if(this.column !== 0){
-                if(this.hood.board[this.row-1][this.column-1].prevState.localeCompare("O")) aliveNeighbours++;
+                if(this.hood.board[this.row-1][this.column-1].prevState.localeCompare("O") === 0) aliveNeighbours++;
             }
             
             //Top middle
-            if(this.hood.board[this.row-1][this.column].prevState.localeCompare("O")) aliveNeighbours++;
+            if(this.hood.board[this.row-1][this.column].prevState.localeCompare("O") === 0) aliveNeighbours++;
 
             //Top Right
             if(this.column !== this.hood.columns-1){
-                if(this.hood.board[this.row-1][this.column+1].prevState.localeCompare("O")) aliveNeighbours++;
+                if(this.hood.board[this.row-1][this.column+1].prevState.localeCompare("O") === 0) aliveNeighbours++;
             }
         }
 
         //Middle left
         if(this.column !== 0){
-            if(this.hood.board[this.row][this.column-1].prevState.localeCompare("O")) aliveNeighbours++;
+            if(this.hood.board[this.row][this.column-1].prevState.localeCompare("O") === 0) aliveNeighbours++;
         }
 
         //Skipping middle middle, as we are middle middle.
 
         
         if(this.column !== this.hood.columns-1){
-            if(this.hood.board[this.row][this.column+1].prevState.localeCompare("O")) aliveNeighbours++;
+            if(this.hood.board[this.row][this.column+1].prevState.localeCompare("O") === 0) aliveNeighbours++;
         }
 
         if(this.row !== this.hood.rows-1){
             //Bottom left
             if(this.column !== 0){
-                if(this.hood.board[this.row+1][this.column-1].prevState.localeCompare("O")) aliveNeighbours++;
+                if(this.hood.board[this.row+1][this.column-1].prevState.localeCompare("O") === 0) aliveNeighbours++;
             }
 
             //Bottom middle
-            if(this.hood.board[this.row+1][this.column].prevState.localeCompare("O")) aliveNeighbours++;
+            if(this.hood.board[this.row+1][this.column].prevState.localeCompare("O") === 0) aliveNeighbours++;
 
             //Bottom right
             if(this.column !== this.hood.columns-1){
-                if(this.hood.board[this.row+1][this.column+1].prevState.localeCompare("O")) aliveNeighbours++;
+                if(this.hood.board[this.row+1][this.column+1].prevState.localeCompare("O") === 0) aliveNeighbours++;
             }
         }
-
-        /* Update old state: */
-        this.prevState = this.prevState;
         
-        if(this.sign === "O"){
-            if(aliveNeighbours === 2 || aliveNeighbours === 3) return;
-            this.sign = ".";
-            return;
-        }
-
-        if(aliveNeighbours === 3) this.sign = "O";
-        return;
+        return aliveNeighbours;
 
     }
 }
@@ -98,6 +88,7 @@ class Board{
         this.rows    = rows;
         this.columns = columns;
         this.board   = null;
+        this.img     = "";
         this.createBoard();
 
         this.play();
@@ -106,7 +97,6 @@ class Board{
     /* Creates a game board based on the constructor arguments */
     createBoard(){
         this.board = new Array(this.rows);
-
         /* Create new rows for the column */
         for(let row = 0; row < this.rows; row++){
             this.board[row] = new Array(this.columns);
@@ -116,44 +106,76 @@ class Board{
                 const node = new Node(row, column, this);
                 node.generateLife();
                 this.board[row][column] = node;
+                this.img += node.sign + " ";
             }
+            this.img += "\n";
         }
     }
 
     /* Prints the board. */
     printBoard(){
-        let str = "";
-
-        if(this.board === null){
-            console.log("The game board has not been initialized.");
-            return;
-        }
-
         console.log("'printBoard' called. Printing game board\n\n");
-        for(let row = 0; row < this.rows; row++){
-            for(let column = 0; column < this.columns; column++){
-                str += this.board[row][column].sign + " "
-            }
-            str += "\n";
+        console.log(this.img);
+    }
+
+    
+    updateIter(row, column, totNeigh){
+        let neighbours = 0;
+        let alive;
+        let node = null;
+        if(row === this.rows) {
+            console.log("Total neighbours: " + totNeigh);
+            console.log("Board:");
+            console.log(this.img);
+            return; //Base case
         }
         
-        console.log(str);
-    }
-
-    /* Updates the board by looping once over the board. */
-    updateBoard(){
-        for(let row = 0; row < this.rows; row++){
-            for(let column = 0; column < this.columns; column++){
-                this.board[row][column].evolve();
+        node = this.board[row][column];
+        neighbours = node.evolve();
+        totNeigh += neighbours;
+        //console.log("Neighbours: " + neighbours);
+        if(node.sign.localeCompare("O") === 0){
+            if(neighbours === 3 || neighbours == 4){
+                alive = true;
+                this.img += "O ";
             }
+
+        } else if(neighbours === 3){
+            alive = true;
+            this.img += "O ";
+        } else {
+            alive = false;
+            this.img += ". ";
+        }
+        
+        if(column === this.columns-1){
+            this.img += "\n";
+            this.updateIter(row+1, 0, totNeigh);
+        } else {
+            this.updateIter(row, column+1, totNeigh);
+        }
+
+        // After returning when base case hits,
+        if(alive){
+            this.board[row][column].sign = "O";
+        } else {
+            this.board[row][column].sign = ".";
         }
     }
-
+    
+    /* Updates the board by looping once over the board. */
+    updateBoard(){
+        this.img = "";
+        this.updateIter(0, 0, 0);
+    }
+    
+    
     play(){
         while(true){
-            this.printBoard();
+            //this.printBoard();
             let answer = prompt("Do you want to evolve? [Y]. 'q' to quit");
-            if(answer.toLowerCase() === "q") break;
+            if(answer.localeCompare("q") == 0) break;
+            console.log("The answer was: " + answer);
             this.updateBoard();
         }
         console.log("Thank you for playing!");
