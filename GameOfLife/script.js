@@ -34,42 +34,42 @@ class Node{
             
             //Top left
             if(this.column !== 0){
-                if(this.hood.board[this.row-1][this.column-1].prevState.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row-1][this.column-1].sign.localeCompare("O") === 0) aliveNeighbours++;
             }
             
             //Top middle
-            if(this.hood.board[this.row-1][this.column].prevState.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row-1][this.column].sign.localeCompare("O") === 0) aliveNeighbours++;
 
             //Top Right
             if(this.column !== this.hood.columns-1){
-                if(this.hood.board[this.row-1][this.column+1].prevState.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row-1][this.column+1].sign.localeCompare("O") === 0) aliveNeighbours++;
             }
         }
 
         //Middle left
         if(this.column !== 0){
-            if(this.hood.board[this.row][this.column-1].prevState.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row][this.column-1].sign.localeCompare("O") === 0) aliveNeighbours++;
         }
 
         //Skipping middle middle, as we are middle middle.
 
         
         if(this.column !== this.hood.columns-1){
-            if(this.hood.board[this.row][this.column+1].prevState.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row][this.column+1].sign.localeCompare("O") === 0) aliveNeighbours++;
         }
 
         if(this.row !== this.hood.rows-1){
             //Bottom left
             if(this.column !== 0){
-                if(this.hood.board[this.row+1][this.column-1].prevState.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row+1][this.column-1].sign.localeCompare("O") === 0) aliveNeighbours++;
             }
 
             //Bottom middle
-            if(this.hood.board[this.row+1][this.column].prevState.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row+1][this.column].sign.localeCompare("O") === 0) aliveNeighbours++;
 
             //Bottom right
             if(this.column !== this.hood.columns-1){
-                if(this.hood.board[this.row+1][this.column+1].prevState.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row+1][this.column+1].sign.localeCompare("O") === 0) aliveNeighbours++;
             }
         }
         
@@ -119,25 +119,25 @@ class Board{
     }
 
     
-    updateIter(row, column, totNeigh){
+    updateIter(row, column){
         let neighbours = 0;
         let alive;
         let node = null;
+        
         if(row === this.rows) {
-            console.log("Total neighbours: " + totNeigh);
-            console.log("Board:");
             console.log(this.img);
-            return; //Base case
+            return; 
         }
         
         node = this.board[row][column];
         neighbours = node.evolve();
-        totNeigh += neighbours;
         //console.log("Neighbours: " + neighbours);
         if(node.sign.localeCompare("O") === 0){
-            if(neighbours === 3 || neighbours == 4){
+            if(neighbours === 2 || neighbours == 3){
                 alive = true;
                 this.img += "O ";
+            } else {
+                this.img += ". ";
             }
 
         } else if(neighbours === 3){
@@ -150,9 +150,9 @@ class Board{
         
         if(column === this.columns-1){
             this.img += "\n";
-            this.updateIter(row+1, 0, totNeigh);
+            this.updateIter(row+1, 0);
         } else {
-            this.updateIter(row, column+1, totNeigh);
+            this.updateIter(row, column+1);
         }
 
         // After returning when base case hits,
