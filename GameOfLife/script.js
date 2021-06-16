@@ -168,13 +168,11 @@ class Board{
     
     
     play(){
-        while(true){
-            //this.printBoard();
-            let answer = prompt("Do you want to evolve? [Y]. 'q' to quit");
-            if(answer.localeCompare("q") == 0) break;
-            this.updateBoard();
+        let i = 0;
+        while(i++ < 10){
+            
+            setTimeout(this.updateBoard.bind(this), 1000)
         }
-        console.log("Thank you for playing!");
     }
 
 }
