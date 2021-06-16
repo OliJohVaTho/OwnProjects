@@ -12,16 +12,13 @@ class Node{
         this.row       = row;
         this.column    = column;
         this.hood      = hood;
-        this.sign      = ".";
-        this.prevState = "."; 
+        this.sign      = '.';
     }
 
     /* Makes the node come to life, if it's lucky */
     generateLife(){
-        const rand = Math.random();
-        if(rand <= 0.3) {
-            this.sign = "O";
-            this.prevState = "O";
+        if(Math.random() <= 0.3) {
+            this.sign = 'O';
         }
     }
     
@@ -34,42 +31,42 @@ class Node{
             
             //Top left
             if(this.column !== 0){
-                if(this.hood.board[this.row-1][this.column-1].sign.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row-1][this.column-1].sign === 'O') aliveNeighbours++;
             }
             
             //Top middle
-            if(this.hood.board[this.row-1][this.column].sign.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row-1][this.column].sign === 'O') aliveNeighbours++;
 
             //Top Right
             if(this.column !== this.hood.columns-1){
-                if(this.hood.board[this.row-1][this.column+1].sign.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row-1][this.column+1].sign === 'O') aliveNeighbours++;
             }
         }
 
         //Middle left
         if(this.column !== 0){
-            if(this.hood.board[this.row][this.column-1].sign.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row][this.column-1].sign === 'O') aliveNeighbours++;
         }
 
         //Skipping middle middle, as we are middle middle.
 
         
         if(this.column !== this.hood.columns-1){
-            if(this.hood.board[this.row][this.column+1].sign.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row][this.column+1].sign === 'O') aliveNeighbours++;
         }
 
         if(this.row !== this.hood.rows-1){
             //Bottom left
             if(this.column !== 0){
-                if(this.hood.board[this.row+1][this.column-1].sign.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row+1][this.column-1].sign === 'O') aliveNeighbours++;
             }
 
             //Bottom middle
-            if(this.hood.board[this.row+1][this.column].sign.localeCompare("O") === 0) aliveNeighbours++;
+            if(this.hood.board[this.row+1][this.column].sign === 'O') aliveNeighbours++;
 
             //Bottom right
             if(this.column !== this.hood.columns-1){
-                if(this.hood.board[this.row+1][this.column+1].sign.localeCompare("O") === 0) aliveNeighbours++;
+                if(this.hood.board[this.row+1][this.column+1].sign === 'O') aliveNeighbours++;
             }
         }
         
@@ -131,8 +128,8 @@ class Board{
         
         node = this.board[row][column];
         neighbours = node.evolve();
-        //console.log("Neighbours: " + neighbours);
-        if(node.sign.localeCompare("O") === 0){
+        
+        if(node.sign === 'O'){
             if(neighbours === 2 || neighbours == 3){
                 alive = true;
                 this.img += "O ";
@@ -157,16 +154,16 @@ class Board{
 
         // After returning when base case hits,
         if(alive){
-            this.board[row][column].sign = "O";
+            this.board[row][column].sign = 'O';
         } else {
-            this.board[row][column].sign = ".";
+            this.board[row][column].sign = '.';
         }
     }
     
     /* Updates the board by looping once over the board. */
     updateBoard(){
         this.img = "";
-        this.updateIter(0, 0, 0);
+        this.updateIter(0, 0);
     }
     
     
@@ -175,7 +172,6 @@ class Board{
             //this.printBoard();
             let answer = prompt("Do you want to evolve? [Y]. 'q' to quit");
             if(answer.localeCompare("q") == 0) break;
-            console.log("The answer was: " + answer);
             this.updateBoard();
         }
         console.log("Thank you for playing!");
